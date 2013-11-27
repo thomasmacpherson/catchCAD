@@ -83,4 +83,6 @@ while playing:
 	playing = question.ask()==answers.index("Yes")
 	cad.lcd.clear()
 
+cad.lcd.backlight_off()
+
 
